@@ -1,31 +1,20 @@
-<?php
-
- if($_post ['leeftijd'] < 18 ){
- header("Location: ../index.php"); 
- }
- else{
-  echo'legal';
- }
-?>
-<form class='register_form' name="register" method="POST" action="pages/register.php">
-    <h3>Register Now!</h3>
-    <div class="row">
-        <p>Naam</p>
-        <input type="text" name="naam"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/css/main.css" >
+</head>
+<body>
+    <div class="aangemeld">
+        <h1>Je bent Succesvol aangemeld</h1>
     </div>
-    <div class="row">
-        <p>Leeftijd</p>
-        <input type="text" name="leeftijd"/>
+    <div class="terug">
+        <h1>Terug naar Huizens Bakkerij</h1>
     </div>
-    <div class="row">
-        <p>Alegemene voorwaarden</p>
-        <input type="checkbox" name="av"/>
+    <div class="terug-button">
+    <a href="/index.php" class="Items">Terug</a>     
     </div>
-    <div class="row">
-        <p>geslacht</p>
-        <input type="text" name="geslacht"/>
-    </div>
-    <div class="row">
-        <input type="submit" name="submit" value='send'/>
-    </div>
-</form>
+</body>
+</html>
