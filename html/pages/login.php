@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,18 +26,17 @@
     </div>
 </header>
 <body>
-<img src="/assets/beekerie.jpg" class="img-B">
 <div class="full-login">
     <form class='register_form' name="register" method="POST" action="/pages/register.php">
         <div class="mid">
             <h3>Log In</h3>
         </div>
         <div class="row55">
-            <p> Naam</p>
+            <p>Naam user</p>
             <input type="text" name="naam" placeholder="Vul Naam in"/>
         </div>
         <div class="row55">
-            <p> Email</p>
+            <p>Email user</p>
             <input type="Email" name="Email" placeholder="Vul Email in"/>
         </div>
     <div class="row55">
@@ -44,7 +44,7 @@
         <input type="password" name="password" placeholder="Vul Wachtwoord in"/>
     </div>
     <div class="row55">
-        <p> Leeftijd</p>
+        <p>Leeftijd (18)</p>
         <input type="text" name="leeftijd" placeholder="Vul leeftijd in"/>
     </div>
     <div class="row55">
@@ -57,4 +57,6 @@
 </form>
 </div>
 </body>
+</html>
+
 </html>

@@ -41,7 +41,7 @@
     <div class="box1">
         <img src="/assets/1.jpeg" class="imgF">
         <div class="context">
-            <h2>Gekleude donuts</h2>
+            <h2>Gekleurde donuts</h2>
             <p1>Chocola/Aardbij/confetti</p1>
             <p2>1€ per stuk</p2>
             <p>5 voor 4€</p>
@@ -50,7 +50,7 @@
     <div class="box1">
     <img src="/assets/ollieballen.jpeg" class="imgF">
     <div class="context">
-            <h2>ollieballen</h2>
+            <h2>Oliebollen</h2>
             <p1>Krenten/Normaal</p1>
             <p2>1€ per stuk</p2>
             <p>5 voor 4€</p>
@@ -63,7 +63,7 @@
     <img src="/assets/kaas.jpeg" class="imgF">
     <div class="context">
             <h2>Knapperige kaasstengels</h2>
-            <p2>1,50€ per stuk</p2>
+            <p2>0,99€ per stuk</p2>
             <p>4+1 gratis</p>
         </div>
     </div>
