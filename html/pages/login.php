@@ -26,30 +26,31 @@
     </div>
 </header>
 <body>
+
 <div class="full-login">
-    <form class='register_form' name="register" method="POST" action="/pages/register.php">
+    <form class='register_form' action='login_logic.php' name='login_logic'method="POST">
         <div class="mid">
             <h3>Log In</h3>
-        </div>
+        </div> 
         <div class="row55">
             <p>Naam user</p>
-            <input type="text" name="naam" placeholder="Vul Naam in"/>
+            <input type="text" name="username"placeholder="username" required>
         </div>
         <div class="row55">
             <p>Email user</p>
-            <input type="Email" name="Email" placeholder="Vul Email in"/>
+            <input type="Email" name="Email" placeholder="Vul Email in" required/>
         </div>
     <div class="row55">
         <p>Wachtwoord</p>
-        <input type="password" name="password" placeholder="Vul Wachtwoord in"/>
+        <input type="password" name="password"placeholder="Password" required>
     </div>
     <div class="row55">
         <p>Leeftijd (18)</p>
-        <input type="text" name="leeftijd" placeholder="Vul leeftijd in"/>
+        <input type="text" name="leeftijd" placeholder="Vul leeftijd in" required/>
     </div>
     <div class="row55">
         <p>Agreed Terms of Service</p>
-        <input type="checkbox" name="av"/>
+        <input type="checkbox" name="av" required/>
     </div>
     <div class="row55">
         <input type="submit" name="submit" value='Login' class="button-log"/>
@@ -57,6 +58,4 @@
 </form>
 </div>
 </body>
-</html>
-
 </html>

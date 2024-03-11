@@ -28,7 +28,7 @@
     <img src="/assets/bakkur.jpg" class="img-B">
     <div class="left-info">
         <h2>Van Huizens Bakkerij</h2>
-        <p3>Als bakkers van Huizens Bakkerij raken wij niet 
+        <p3>Als bakkers bij van Huizens Bakkerij raken wij niet 
             uitgekeken op brood. Vanuit die gedrevenheid ontwikkelden wij een 
             natuurlijk desembrood. Wie Steengoedbrood proeft, maakt kennis met de 
             authentieke smaak van brood.</p3> 
