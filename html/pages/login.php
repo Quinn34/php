@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,19 +33,19 @@
         </div> 
         <div class="row55">
             <p>Naam user</p>
-            <input type="text" name="username"placeholder="username" required>
+            <input type="text" name="username"placeholder="   username" required>
         </div>
         <div class="row55">
             <p>Email user</p>
-            <input type="Email" name="Email" placeholder="Vul Email in" required/>
+            <input type="Email" name="Email" placeholder="   Vul Email in" required/>
         </div>
     <div class="row55">
         <p>Wachtwoord</p>
-        <input type="password" name="password"placeholder="Password" required>
+        <input type="password" name="password"placeholder="   Password" required>
     </div>
     <div class="row55">
         <p>Leeftijd (18)</p>
-        <input type="text" name="leeftijd" placeholder="Vul leeftijd in" required/>
+        <input type="text" name="leeftijd" placeholder="   Vul leeftijd in" required/>
     </div>
     <div class="row55">
         <p>Agreed Terms of Service</p>
