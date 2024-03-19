@@ -14,7 +14,7 @@ body{
     background-color: #CB007C;
     display: flex;
     flex-direction: row;
-    /* position: fixed; */
+    position: fixed;
 }
 .left-75{
     height: 100%;
@@ -131,7 +131,7 @@ p2{
 .full-login{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
+
 }
 .aangemeld{
     display: flex;
@@ -159,7 +159,6 @@ p2{
     font-weight: 700;
     margin-top: 100px;
     margin-left: 47%;
-    margin-bottom: 100px;
 }
 .Items{
     color: black;
@@ -195,15 +194,6 @@ input{
     margin-top: 100px;
 }
 .con-100{
-    height: 200px;
-    width: 100%;
-    font-size: 50px;
-    color: #CB007C;
-    text-align: center;
-    font-family: "Viktor Script";
-    letter-spacing: 1px;
-}
-.con-101{
     height: 100px;
     width: 100%;
     font-size: 50px;
@@ -242,7 +232,7 @@ input{
  }
  .container2{
     width: 1920px;
-    height: 1000px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -307,41 +297,11 @@ a {
 }
 .container3{
     width: 1920px;
-    height: 800px;
+    height: 200px;
     margin: 10px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     border-radius: 20px;
     transition: 1s;
-}
-.singleProduct{
-    height: 300px;
-    width: 200px;
-    color: red;
-    background-color: red;
-}
-.voedsel{
-    justify-content: flex-start;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    column-gap: 50px;
-    row-gap: 100px;  
-    flex-wrap: wrap;
-    border-radius: 20px;
-}
-.justify-center{
-    justify-content: center;
-}
-.fotos{
-    width: 350px;
-    height: 213px;
-    border-radius: 20px;
-}
-.foto{
-    width: 350px;
-    height: 213px;
 }

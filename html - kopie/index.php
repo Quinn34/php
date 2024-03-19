@@ -38,7 +38,7 @@
             structuur. U proeft de volle smaak van echt brood. Zo moet brood vanouds 
             bedoeld zijn.</p3>
     </div>
-    <div class="con-101">
+    <div class="con-100">
         <h4>Snel doorgaan</h4>
     </div>
     <div class="container3">
