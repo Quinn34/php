@@ -54,6 +54,9 @@
     <div class="row55">
         <input type="submit" name="submit" value='Login' class="button-log"/>
     </div>
+    <div class="back-sh">
+        <a href="/pages/register.php" class="backi"> Register Now!</a>
+    </div>
 </form>
 </div>
 </body>

@@ -329,7 +329,7 @@ a {
     justify-content: center;
     flex-direction: row;
     column-gap: 50px;
-    row-gap: 100px;  
+    row-gap: 150px;  
     flex-wrap: wrap;
     border-radius: 20px;
 }
@@ -344,4 +344,12 @@ a {
 .foto{
     width: 350px;
     height: 213px;
+}
+.back-sh{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+}
+.backi{
+    color: #CB007C;
 }

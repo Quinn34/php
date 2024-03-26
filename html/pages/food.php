@@ -40,10 +40,18 @@
              echo '<div class="foto">';
             //  echo '<img class="fotos" src="/assets/croissant.jpeg" alt="">';
                   echo '<div class="">';
+                  echo '<h1>';
                   echo $row['naam'] ."<br />\n";
+                  echo '</h1>';
+                  echo '<h5>';
                    echo $row['beschrijving'] ."<br />\n";
+                   echo '</h5>';
+                   echo '<h4>';
                    echo $row['prijs'] ."<br />\n";
+                   echo '</h4>';
+                   echo '<h5>';
                    echo $row['aanbiedingen'] ."<br />\n";
+                   echo '</h5>';
                    echo '</div>';
                    echo '</div>';
                 }
@@ -54,3 +62,17 @@
     </div>
 </body>
 </html>
+<?php
+if (isset($_POST['submit'])) {
+    if (isset($_FILES['image']) && $_FILES['image']['error'] === 0) {
+        $imagePath = 'uploads/' . $_FILES['image']['name'];
+        move_uploaded_file($_FILES['image']['tmp_name'], $imagePath);
+
+        // Insert image details into the database
+        $stmt = $conn->prepare("INSERT INTO images (name, image) VALUES (?, ?)");
+        $stmt->bindParam(1, $_POST['name']);
+        $stmt->bindParam(2, $imagePath);
+        $stmt->execute();
+    }
+}
+?>

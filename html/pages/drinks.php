@@ -34,15 +34,21 @@
      ?>
 <div class="voedsel justify-center">
         <?php
-          $stmt = $connection->query("SELECT * FROM drinken");
+          $stmt = $connection->query("SELECT * FROM drinks");
           while ($row = $stmt->fetch()) {
    
-             echo '<div class="foto">';
-            //  echo '<img class="fotos" src="/assets/bier.jpeg" alt="">';
+             echo '<div class= "foto">';
+             echo '<img class= "fotos"  src="/assets/iceteaL.jpeg" alt="">';
                   echo '<div class="">';
+                  echo '<h1>';
                   echo $row['Naam'] ."<br />\n";
+                  echo '</h1>';
+                  echo '<h5>';
                    echo $row['beschrijving'] ."<br />\n";
+                   echo '</h5>';
+                   echo '<h4>';
                    echo $row['prijs'] ."<br />\n";
+                   echo '</h4>';
                    echo '</div>';
                    echo '</div>';
                 }

@@ -1,5 +1,6 @@
 <?php
 session_start();
+include 'conn.php';
 
  if($_POST['leeftijd'] < 18 ){
  header("Location: error.php"); 
@@ -13,11 +14,15 @@ session_start();
     $username = $_POST["username"];
     $password = $_POST["password"];
     
-    if ($username == "admin" && $password == "admin"){
+    $stmt = $connection->prepare("SELECT * FROM users WHERE username=:user AND password=:pass");
+    $stmt->execute(['user' => $username,'pass' => $password]);
+    $user = $stmt ->fetch();
+
+    if (!$user){
+        header("Location: login.php");
+    } else {
         $_SESSION["user"] = $username;
         header("Location: dashboard.php");
-    } else {
-        header("Location: login.php");
     }
  }
 ?>
