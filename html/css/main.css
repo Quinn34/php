@@ -114,6 +114,73 @@ p2{
     margin-top: 100px;
     justify-content: space-around;
     font-size: 25px;
+    text-align: center;
+}
+.product_form{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 100px;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+}
+.drinks_form{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 100px;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+}
+.deletef_form{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 100px;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+}
+.deleted_form{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 100px;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+}
+.food_update_form{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 100px;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+}
+.drinks_update_form{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 100px;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
 }
 .row55{
     display: flex;
@@ -121,6 +188,15 @@ p2{
     height: auto;
     width: 100%;
     justify-content: space-around;
+}
+.row555{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 .mid {
     display: flex;

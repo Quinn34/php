@@ -38,10 +38,10 @@
           while ($row = $stmt->fetch()) {
    
              echo '<div class= "foto">';
-             echo '<img class= "fotos"  src="/assets/iceteaL.jpeg" alt="">';
+            //  echo '<img class= "fotos"  src="/assets/iceteaL.jpeg" alt="">';
                   echo '<div class="">';
                   echo '<h1>';
-                  echo $row['Naam'] ."<br />\n";
+                  echo $row['naam'] ."<br />\n";
                   echo '</h1>';
                   echo '<h5>';
                    echo $row['beschrijving'] ."<br />\n";

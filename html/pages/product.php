@@ -30,7 +30,7 @@
             <a href="/pages/food.php"><img src="/assets/eten.jpg" class="img-9"></a>
             </div>
         <div class="box4">
-            <a href= "/pages/drinks.php"><img src="/assets/drinks.jpg" class="img-9"></a>
+            <a href="/pages/drinks.php"><img src="/assets/drinks.jpg" class="img-9"></a>
         </div>
     </div>
 </body>
