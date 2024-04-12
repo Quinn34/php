@@ -17,6 +17,9 @@ $producten = $stmt->fetch();
 <header>
     <div class="full-login">
         <form class='product_form' action='food_update_logic.php' name='food_update_logic' method="POST">
+        <div class="back-sh">
+            <a href="dashboard.php" class="backi"><-- Back</a>
+        </div>
         <div class="row555">
             <label>Id van product</label> 
             <input type="text" name="id" value= "<?php echo $producten['id']; ?>" >

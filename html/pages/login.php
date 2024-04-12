@@ -44,14 +44,6 @@
         <input type="password" name="password"placeholder="   Password" required>
     </div>
     <div class="row55">
-        <p>Leeftijd (18)</p>
-        <input type="text" name="leeftijd" placeholder="   Vul leeftijd in" required/>
-    </div>
-    <div class="row55">
-        <p>Agreed Terms of Service</p>
-        <input type="checkbox" name="av" required/>
-    </div>
-    <div class="row55">
         <input type="submit" name="submit" value='Login' class="button-log"/>
     </div>
     <div class="back-sh">

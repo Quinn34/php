@@ -3,7 +3,7 @@ session_start();
 include 'conn.php';
 
 
-$userid = $_POST["id_drinks"];
+$drinksid = $_POST["id_drinks"];
 
 
 $stmt = $connection->prepare("DELETE FROM drinks WHERE id=:drinksid");

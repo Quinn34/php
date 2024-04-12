@@ -2,10 +2,6 @@
 session_start();
 include 'conn.php';
 
- if($_POST['leeftijd'] < 18 ){
- header("Location: error.php"); 
- }
- else{
     if(empty($_POST["username"]) || empty($_POST["password"])){
         header("Location: login.php");
         exit();
@@ -24,5 +20,4 @@ include 'conn.php';
         $_SESSION["user"] = $username;
         header("Location: dashboard.php");
     }
- }
 ?>

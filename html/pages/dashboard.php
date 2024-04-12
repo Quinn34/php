@@ -62,17 +62,16 @@
             </form>
         </div>
 
-        <div class="full-login">
-            <form class='food_update_form' action='food_update.php' name='food_update' method="post">
-            <div class="back-sh">
-                <a href="/index.php" class="backi"><-- Back</a>
-            </div>
-                    <label>Naar eten update pagina:</label> 
-                <div class="row55">
-                    <input type="submit" value='Update' class="button-log"/>
-                </div>
-            </form>
-        </div>
+        <?php
+            $stmt = $connection->prepare("SELECT * FROM producten");
+            $stmt->execute();
+            $data = $stmt->fetchAll();
+
+            foreach ($data as $row) {
+                echo $row['naam'];
+                echo "<a href='food_update.php?id=".$row ['id']."'>update</a>";
+            }
+            ?>
 
         <div class="full-login">
         <form class='drinks_form' action='drinks_logic.php' name='drinks_logic' method="post">
@@ -107,26 +106,14 @@
                 </div>
             </form>
         </div>
-        <div class="full-login">
-            <form class='drinks_update_form' action='drinks_update.php' name='drinks_update' method="post">
-            <div class="back-sh">
-                <a href="/index.php" class="backi"><-- Back</a>
-            </div>
-                    <label>Naar drinken update pagina:</label> 
-                <div class="row55">
-                    <input type="submit" value='Update' class="button-log"/>
-                </div>
-            </form>
-        </div>
         <?php
-            $stmt = $connection->prepare("SELECT * FROM producten");
+            $stmt = $connection->prepare("SELECT * FROM drinks");
             $stmt->execute();
             $data = $stmt->fetchAll();
 
             foreach ($data as $row) {
                 echo $row['naam'];
-                echo "<a href='food_update.php?id=".$row ['id']."'>update</a>";
-                // echo "<a href='pages/food_update.php?id=".$row ['id']."'>update</a>";
+                echo "<a href='drinks_update.php?id=".$row ['id']."'>update</a>";
             }
             ?>
 </body>

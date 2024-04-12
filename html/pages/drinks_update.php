@@ -1,3 +1,11 @@
+<?php
+session_start();
+include 'conn.php';
+
+$stmt = $connection->prepare("SELECT * FROM drinks WHERE id=:id");
+$stmt->execute(['id' => $_GET['id']]);
+$drinks = $stmt->fetch();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,16 +16,16 @@
 </head>
 <header>
     <div class="full-login">
-        <form class='product_form' action='drinks_update_logic.php' name='drinks_update_logic' method="post">
+        <form class='product_form' action='drinks_update_logic.php' name='drinks_update_logic' method="POST">
         <div class="row555">
             <label>Id van product</label> 
-            <input type="text" naam="id_drinks" value= "<?php echo $drinks['id']; ?>" >
-            <label>Naam van product</label>
-            <input type="text" naam="naam" value= "<?php echo $drinks['naam']; ?>" >
+            <input type="text" name="id_drinks" value= "<?php echo $drinks['id']; ?>">
+            <label>Naam van product</label> 
+            <input type="text" name="naam" value= "<?php echo $drinks['naam']; ?>" >
             <label>beschrijving</label>
-            <input type="text" naam="beschrijving" value= "<?php echo $drinks['beschrijving']; ?>" >
+            <input type="text" name="beschrijving" value= "<?php echo $drinks['beschrijving']; ?>" >
             <label>Prijs van product</label>
-            <input type="text" naam="product" value= "<?php echo $drinks['prijs']; ?>" >
+            <input type="text" name="prijs" value= "<?php echo $drinks['prijs']; ?>" >
         </div>
         <div class="row55">
             <input type="submit" value='update' class="button-log"/>

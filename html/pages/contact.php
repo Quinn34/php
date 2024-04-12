@@ -25,5 +25,28 @@
     </div>
 </header>
 <body>
+    <div class="row66">
+        <div class="insta">
+            <h3>mail</h3>
+            <p>Quinnvanhuizen@gmail.com</p>
+            <a href="https://www.gmail.com/" target="_blank"> <img src="/assets/miall.jpeg" class="img-i"></a>
+        </div>
+    </div>
+
+    <div class="row66">
+        <div class="insta">
+        <h3>Instagram</h3>
+        <p>QuinnvanHuizen06</p>
+        <a href="https://www.instagram.com/" target="_blank"> <img src="/assets/instalogo.jpeg" class="img-i"></a>
+        </div>
+    </div>
+
+    <div class="row66">
+        <div class="insta">
+        <h3>facebook</h3>
+        <p>Quinn van Huizen</p>
+        <a href="https://www.facebook.com/" target="_blank"> <img src="/assets/face.png" class="img-i"></a>
+        </div>
+    </div>
 </body>
 </html>

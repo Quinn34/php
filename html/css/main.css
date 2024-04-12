@@ -429,3 +429,36 @@ a {
 .backi{
     color: #CB007C;
 }
+.zoek-t{
+    margin-top: 100px;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.row66{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.insta{
+    height: 200px;
+    width: 600px;
+    background-color: #CB007C;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.img-i{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+}
